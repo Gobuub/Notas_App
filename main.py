@@ -25,7 +25,7 @@ st.caption('''
     Para cifrar el email tendreís que usar la técnica del cifrazo del César, en base 13
 ''')
 
-caesar_cipher = 'https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar'
+caesar_cipher = 'https://es.wikipedia.org/wiki/Cifrado_César'
 
 if st.button('Kike Help me Please'):
     webbrowser.open_new_tab(caesar_cipher)
