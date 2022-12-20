@@ -23,6 +23,11 @@ st.caption('''
     y exclusivo para cada uno de vosotros, y así únicamente vosotros podréis comprobar vuestra nota.
     
     Para cifrar el email tendreís que usar la técnica del cifrazo del César, en base 13
+    
+    Por ejemplo si mi email es : example@gmail.com
+    
+    El código que debería de introducir es: rknzcyr
+    
 ''')
 
 caesar_cipher = '[Caesar Cypher](https://es.wikipedia.org/wiki/Cifrado_César)'
