@@ -25,10 +25,9 @@ st.caption('''
     Para cifrar el email tendreís que usar la técnica del cifrazo del César, en base 13
 ''')
 
-caesar_cipher = 'https://es.wikipedia.org/wiki/Cifrado_César'
+caesar_cipher = '[Caesar Cypher](https://es.wikipedia.org/wiki/Cifrado_César)'
 
-if st.button('Kike Help me Please'):
-    webbrowser.open_new_tab(caesar_cipher)
+st.markdown(caesar_cipher, unsafe_allow_html=True)
 
 mail = st.selectbox('email', df.email.unique())
 
